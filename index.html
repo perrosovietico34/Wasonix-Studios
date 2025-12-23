@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/styles.css">
+  <script defer src="../static/app.js"></script>
+  <title>Wasonix Studios</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="../images/lg.jpg" width="30" height="30" class="Logo"> Wasonix
+      </div>
+      <ul class="nav-links">
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Obtener">Obtener</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+        <li><a href="#Acerca">Acerca de nosotros</a></li>
+      </ul>
+      <div class="loging">
+        <a href="../templates/login.html">Iniciar sesión</a>
+      </div>
+      <button class="burger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+    <header id="Inicio" class="hero-section">
+      <h1>Bienvenidos a Wasonix Studios</h1>
+      <p>Descarga Lost Bodies</p>
+      <a href="#Obtener" class="btn-primary">DESCARGAR</a>
+    </header>
+  </div>
+  <main>
+    <section id="anuncios" class="card-content">
+      <h2>Avances y videos</h2>
+      <br>
+      <div class="cards">
+      <div class="card">
+        <h3>Video gameplay</h3>
+        <p>Gameplay breve de historia y mecanicas</p>
+        <video loop controls class="video" src="../videos/VID-20250628-WA0013.mp4"></video>
+      </div>
+      <div class="card">
+        <h3>Imagen de juego</h3>
+        <p>Imagen de portada de juego</p>
+        <img class="portada" src="../images/IMG-20250715-WA0003.jpg" alt="">
+      </div>
+      <div class="card">
+        <h3>Hospital</h3>
+        <p>Imagen del avance del hospital</p>
+        <img class="hospital" src="../images/IMG-20250805-WA0013.jpg" alt="">
+      </div>
+      </div>
+    </section>
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="">
+        </span>
+    </div>
+    <div id="flash-messagers" class="flash-messagers"></div>
+  </main>
+  <br>
+  <footer>
+    <h2>Visita nuestras redes sociales</h2>
+    <img src="../images/instagram.png" class="aplications">
+    <img src="../images/X.jpg" onclick="window.open('https://x.com/wasonix13126')" class="aplications">
+    <img src="../images/reddit.webp" onclick="window.open('https://www.reddit.com/user/Wasonix_Studios/')" class="aplications">
+    <img src="../images/discord.png" class="aplications">
+    <img src="../images/tiktok.png" onclick="window.open('https://www.tiktok.com/@wasonix.studios')" class="aplications">
+    <img src="../images/youtube.png" class="aplications">
+    <br>
+    <p>&copy; 2025 Wasonix Studios. Todos los derechos recervados.</p>
+    <br>
+    <img src="../images/age-rating.webp" alt="age rating">
+  </footer>
+</body>
+</html>
